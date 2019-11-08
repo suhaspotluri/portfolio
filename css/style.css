@@ -1,4 +1,5 @@
 body {
+	margin-top:60px;
  background-image: url("../images/back.jpg");
  background-repeat: no-repeat;
  background-position: center;
@@ -42,7 +43,6 @@ body {
 
 
 .nav a {
-	vertical-align:bottom;
   float: left;
   display: inline;
   color: white;
@@ -84,7 +84,6 @@ body {
 	
   }
   .nav.responsive a {
-	  vertical-align:middle;
     float: none;
 	top:0;
     display: block;
@@ -93,10 +92,10 @@ body {
 }
 
 
-i{
-	vertical-align:bottom;
-
-}
+i {
+      vertical-align: middle;
+	  margin-top:-5px;
+    }
 
 
 
