@@ -1,25 +1,23 @@
 body {
 margin-top:60px;
- background-image: url("../images/back.jpg");
+/*  background-image: url("../images/back.jpg");
  background-repeat: no-repeat;
  background-position:top;
  background-color: #cccccc;
  background-size:100vw;
+ z-index:0; */
  
 }
 .skip a{
   background: white;
   left: 0;
   padding: 6px;
-  position:absolute; /*Your code here - position relative to the parent */;
-  top:-40px;      /*Your code here - place 40px higher */;
+  position:absolute; 
+  top:-40px;
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 99;
 }
-
-/*Your code here*/{
-/*Add the selector and rule to move the skip link to the exact top.*/
 .skip{
 	overflow:hidden;
 }
@@ -99,14 +97,6 @@ i {
       vertical-align: middle;
 	  margin-top:-5px;
     }
-h1{
-	
-	
-  color: #fff;
-	text-align:center;
-	font-size:7vw;
-	z-index:2;
-}
 
 .parent {
 display: grid;
@@ -126,4 +116,26 @@ grid-row-gap: 0px;
 img{
 	height:20vw;
 	object-fit: cover;
+}
+video{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:auto;
+	z-index=1;
+}
+.splash{
+	top:50px;
+	left:0;
+	padding:0;
+	width:100%;
+	position: absolute;
+  text-align: center;
+  color: white;
+}
+.main{
+	position: relative;
+	top:50px;
+	font-size:15vw;
 }
