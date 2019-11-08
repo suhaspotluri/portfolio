@@ -1,0 +1,141 @@
+body {
+ background-image: url("../images/back.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ background-color: #cccccc;
+ height: 500px;
+}
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  position:absolute; /*Your code here - position relative to the parent */;
+  top:-40px;      /*Your code here - place 40px higher */;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+/*Your code here*/{
+/*Add the selector and rule to move the skip link to the exact top.*/
+.skip{
+	overflow:hidden;
+}
+}
+.skip a:focus{
+	top:0px;
+}
+*:focus{
+	outline:none;
+	border:2px solid black;
+}
+
+.nav {
+	position:fixed;
+	overflow: auto;
+	width:100%;
+	left:0;
+	top:-5px;
+  background-color: #333;
+}
+
+
+.nav a {
+	vertical-align:bottom;
+  float: left;
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin:0;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: fixed;}
+  .nav.responsive .icon {
+    position:fixed;
+    right: 0;
+    top: 0;
+	
+  }
+  .nav.responsive a {
+	  vertical-align:middle;
+    float: none;
+	top:0;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+i{
+	vertical-align:bottom;
+
+}
+
+
+
+
+
+
+
+
+
+ul{
+	
+	margin-top:-20px;
+	left:0;
+	right:0;
+	position:fixed;
+	overflow:hidden;
+	list-style-type:none;
+	background-color: #334;
+	text-align:center;
+}
+
+li {
+	
+ display:inline;
+}
+
+li a {
+	
+   display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+img{
+	width:20px;
+	object-fit: cover;
+}

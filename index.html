@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Suhas Potluri</title>
   </head>
   <body>
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <div class="container">
-    <div class="nav">
-      <nav>
-        <ul>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="interactive.html">Interactive</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+    <div class="nav" id="nav">
+          <a href="#Home"><i class="material-icons">home</i>Home</a>
+          <a href="#about"><i class="material-icons">face</i>About</a>
+          <a href="#projects"><i class="material-icons">code</i>Projects</a>
+          <a href="#contact"><i class="material-icons">contact_mail</i>Contact</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="material-icons">menu</i></a>
     </div>
     <header id="main">
     <h1>Suhas Potluri</h1>
@@ -61,5 +60,15 @@
         &copy; Colleen van Lent, Drew Asselin - Web Design 2019-2020</p>
     </footer>
     </div>
+	<script>
+function myFunction() {
+  var x = document.getElementById("nav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
   </body>
 </html>
