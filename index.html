@@ -13,10 +13,10 @@
     <div class="skip"><a href="#about">Skip to Main Content</a></div>
     <div class="container">
     <div class="nav" id="nav">
-          <a href="#home"><i class="material-icons">home</i> Home</a>
-          <a href="#about"><i class="material-icons">person</i> About</a>
-          <a href="#projects"><i class="material-icons">code</i> Projects</a>
-          <a href="#contact"><i class="material-icons">chat</i> Contact</a>
+          <a href="#home"onclick="myFunction()"><i class="material-icons">home</i> Home</a>
+          <a href="#about"onclick="myFunction()"><i class="material-icons">person</i> About</a>
+          <a href="#projects"onclick="myFunction()"><i class="material-icons">code</i> Projects</a>
+          <a href="#contact" onclick="myFunction()"><i class="material-icons">chat</i> Contact</a>
 		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="material-icons">menu</i></a>
     </div>
@@ -72,6 +72,10 @@ function myFunction() {
   } else {
     x.className = "nav";
   }
+}
+function myFunction2(){
+	var x = document.getElementById("nav");
+	x.className = "nav";
 }
 </script>
   </body>

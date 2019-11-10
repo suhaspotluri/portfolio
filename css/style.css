@@ -67,15 +67,14 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {display: none;}
+  .nav a:not(:first-child) {
+	  display: none;}
   .nav a.icon {
     float: right;
     display: inline;
 	z-index:2;
   }
-}
 
-@media screen and (max-width: 600px) {
   .nav.responsive {position: fixed;}
   .nav.responsive .icon {
     position:fixed;
