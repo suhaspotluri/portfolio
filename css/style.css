@@ -180,6 +180,7 @@ video{
 	border-radius: 5px;
 	overflow:hidden;
 	display:grid;
+	justify-items: center;
 	grid-column-gap:10px;
 	grid-row-gap: 5px;
 	grid-template-columns: auto auto auto;
