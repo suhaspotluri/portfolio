@@ -146,6 +146,20 @@ video{
 	animation-duration: 6s;
 	animation-name: fadeInDown;
 }
+#arrow{
+	z-index:1;
+	position: absolute;
+	top:95%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-size:6vw;
+	color:white;
+	animation-duration: 6s;
+	animation-name: fadeInDown;
+}
+#arrow:hover{
+	font-size:7vw;
+}
 @keyframes fadeInDown {
             0% {
 				
