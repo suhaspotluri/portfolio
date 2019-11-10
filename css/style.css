@@ -188,6 +188,7 @@ video{
 }
 .contact{
 	background-color:white;
+	display:flex;
 }
 
 img{
@@ -204,6 +205,10 @@ img:hover{
 .contact{
 	height:100vh;
 	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction: column;
+	align-items: center;
 }
 a#projects,#contact,#about{
 	display:block;
@@ -251,6 +256,49 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+* {
+  box-sizing: border-box;
+}
+label {
+	display:block;
+	text-align:center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  text-align:center;
+}
+input[type=submit] {
+	width:100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+.col-25 {
+  float: center;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: center;
+  width: 100%;
+  margin-top: 6px;
+}
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 	.gallery{
 	grid-template-columns: auto auto;
