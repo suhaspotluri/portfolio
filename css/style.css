@@ -1,11 +1,7 @@
 body {
-margin-top:60px;
-/*  background-image: url("../images/back.jpg");
- background-repeat: no-repeat;
- background-position:top;
+
  background-color: #cccccc;
- background-size:100vw;
- z-index:0; */
+
  
 }
 .skip a{
@@ -157,7 +153,7 @@ overflow: hidden;
 	left:24vw;
 	position: absolute;
 	font-size:10vw;
-	color: black;
+	color: white;
 	text-align: center;
 	animation-duration: 6s;
 	animation-name: fadeInDown;
