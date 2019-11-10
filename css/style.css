@@ -157,7 +157,7 @@ overflow: hidden;
 	left:24vw;
 	position: absolute;
 	font-size:10vw;
-	color: white;
+	color: black;
 	text-align: center;
 	animation-duration: 6s;
 	animation-name: fadeInDown;
