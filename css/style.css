@@ -146,7 +146,8 @@ video{
 	width:100vw;
 	height:100vh;
 	position: absolute;
-overflow: hidden;
+	overflow: hidden;
+	background-color:black;
 }
 .main{
 	top:30vh;
@@ -173,4 +174,10 @@ overflow: hidden;
 .contact{
 	height:100vh;
 	width:auto;
+}
+a#projects,#contact,#about{
+	display:block;
+	visibility:hidden;
+	position:relative;
+	top:-60px;
 }
