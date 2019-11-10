@@ -9,18 +9,19 @@ body {
   background: white;
   left: 0;
   padding: 6px;
-  position:absolute; 
-  top:-40px;      
+  position:relative; 
+  top:40px;      
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
-  z-index: 1;
+  z-index: 5;
 }
 .skip{
 	overflow:hidden;
 }
 }
 .skip a:focus{
-	top:45px;
+	top:80px;
+	
 }
 *:focus{
 	outline:none;
@@ -155,7 +156,7 @@ video{
          }
 .space{
 	position:relative;
-	height:100vh;
+	height:98vh;
 	width:100%;
 }
 .about{
@@ -170,14 +171,12 @@ video{
 	overflow:hidden;
 	height:100vh;
 	width:100vw;
-	background-color:white;;
+	background-color:transparent;
 }
 .gallery{
 	margin-left:10px;
 	margin-right:10px;
 	padding:5px;
-	border:2px groove #333;
-	border-radius: 5px;
 	overflow:hidden;
 	display:grid;
 	justify-items: center;
@@ -185,6 +184,9 @@ video{
 	grid-row-gap: 5px;
 	grid-template-columns: auto auto auto;
 	
+}
+.contact{
+	background-color:white;
 }
 
 img{
@@ -198,12 +200,6 @@ img{
 img:hover{
 	 filter: brightness(150%);
 }
-
-div{
-	padding:0;
-	margin:0;
-	float:left;
-}
 .contact{
 	height:100vh;
 	width:100vw;
@@ -212,13 +208,16 @@ a#projects,#contact,#about{
 	display:block;
 	visibility:hidden;
 	position:relative;
-	top:-50px;
+	top:-40px;
 }
 h2{
 	text-align:center;
 
 	font-size:4vh;
 	color:black;
+}
+.projects h2{
+	color:white;
 }
 h3{
 	margin-left:1px;
@@ -237,6 +236,19 @@ p{
 	margin-right:2vw;
 	font-size:2.5vh;
 	color:white;
+}
+.parallax {
+  /* The image used */
+  background-image: url('../images/back.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width: 600px) {
 	.gallery{
