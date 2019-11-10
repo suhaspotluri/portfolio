@@ -1,5 +1,6 @@
 body {
-
+	margin:0;
+	width:100vw;
 	background-color: black;
 	font-family: 'Josefin Sans', sans-serif;
  
@@ -28,7 +29,7 @@ body {
 
 .nav {
 	position:fixed;
-	overflow: auto;
+	overflow: hidden;
 	width:100%;
 	left:0;
 	top:-5px;
@@ -94,10 +95,6 @@ i {
 	  margin-top:-5px;
     }	
 	 
-img{
-	height:20vw;
-	object-fit: cover;
-}
 video{
 	position:absolute;
 	min-width: 100%; 
@@ -159,6 +156,7 @@ video{
 .space{
 	position:relative;
 	height:100vh;
+	width:100%;
 }
 .about{
 	background-color:white;
@@ -166,16 +164,41 @@ video{
 	flex-direction: column;
 	align-items: center;
 	height:100vh;
-	width:auto;
-	margin:auto;
+	width:100vw;
 }
 .projects{
+	overflow:hidden;
 	height:100vh;
-	width:auto;
+	width:100vw;
+	background-color:white;;
+}
+.gallery{
+	overflow:hidden;
+	display:grid;
+	grid-column-gap:10px;
+	grid-row-gap: 5px;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+}
+@media screen and (max-width: 600px) {
+	.gallery{
+	grid-template-columns: auto auto;
+	}
+}
+img{
+	width:100%;
+	align:center;
+	object-fit:cover;
+}
+
+div{
+	padding:0;
+	margin:0;
+	float:left;
 }
 .contact{
 	height:100vh;
-	width:auto;
+	width:100vw;
 }
 a#projects,#contact,#about{
 	display:block;
@@ -184,25 +207,26 @@ a#projects,#contact,#about{
 	top:-50px;
 }
 h2{
+	text-align:center;
 	padding-top:1vh;
-	font-size:5.5vh;
+	font-size:5.5vw;
 	color:black;
 }
 h3{
-	padding-top:1vh;
+	padding-top:0vh;
 	margin-left:1px;
 	margin-right:1px;
 	text-align:center;
-	font-size:3.5vh;
+	font-size:3.5vw;
 }
 p{
+	padding:4px;
 	background-color:#ff6e6e;
 	border:2px groove red;
-	padding:2px;
 	border-radius: 5px;
 	text-align:center;
 	margin-left:2vw;
 	margin-right:2vw;
-	font-size:2.75vh;
+	font-size:2.75vw;
 	color:white;
 }
