@@ -190,10 +190,13 @@ h2{
 }
 h3{
 	padding-top:1vh;
+	margin-left:1px;
+	margin-right:1px;
 	text-align:center;
 	font-size:3.5vh;
 }
 p{
+	background-color:#ff6e6e;
 	border:2px groove red;
 	padding:2px;
 	border-radius: 5px;
@@ -201,5 +204,5 @@ p{
 	margin-left:2vw;
 	margin-right:2vw;
 	font-size:2.75vh;
-	color:black;
+	color:white;
 }
