@@ -8,8 +8,8 @@ body {
   background: white;
   left: 0;
   padding: 6px;
-  position:absolute; /*Your code here - position relative to the parent */;
-  top:-40px;      /*Your code here - place 40px higher */;
+  position:absolute;
+  top:-40px;      
   -webkit-transition: top 1s ease-out;
   transition: top 1s ease-out;
   z-index: 1;
@@ -22,11 +22,11 @@ body {
 }
 }
 .skip a:focus{
-	top:45px;
+	top:55px;
 }
 *:focus{
 	outline:none;
-	border:2px solid yellow;
+	border:1px solid yellow;
 }
 
 .nav {
@@ -34,7 +34,7 @@ body {
 	overflow: auto;
 	width:100%;
 	left:0;
-	top:-5px;
+	top:0px;
   background-color: #333;
   z-index:2;
 }
@@ -75,11 +75,12 @@ body {
 	z-index:2;
   }
 
-  .nav.responsive {position: fixed;}
+  .nav.responsive {
+	  display:inline;
+	  position: fixed;}
   .nav.responsive .icon {
     position:fixed;
     right: 0;
-    top: 0;
 	z-index:2;
 	
   }
