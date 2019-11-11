@@ -120,7 +120,7 @@ video{
 }
 .main{
 	text-align:center;
-	top:50%;
+	top:40%;
 	left:50vw;
 	transform: translate(-50%,-50%);
 	position: absolute;
@@ -133,7 +133,7 @@ video{
 	z-index:1;
 	position: absolute;
 	top:80%;
-	left:50%;
+	left:50vw;
 	transform: translate(-50%,-50%);
 	font-size:6vw;
 	color:white;
