@@ -21,9 +21,9 @@
     <title>Suhas Potluri</title>
   </head>
   <body>
-  
+  <header>
     <div class="skip"><a href="#about">Skip to Main Content</a></div>
-    <div class="nav" id="nav">
+    <div class="nav" role="navigation" id="nav">
           <a id="navhome" href="#home" onclick="myFunction()"><i class="material-icons">home</i></a>
           <a id="navabout" href="#about" onclick="myFunction()"><i class="material-icons">person</i> About</a>
           <a id="navproj" href="#projects" onclick="myFunction()"><i class="material-icons">code</i> Projects</a>
@@ -31,17 +31,18 @@
 		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="material-icons">menu</i></a>
     </div>
+	</header>
 
-	<div class="splash">
+	<div role="main" class="splash">
 	<a id="home"></a>
 	<video autoplay muted loop id="myVideo">
 		<source src="images/cloud.mp4" type="video/mp4">
 		<track src="captions/cloud.vtt" kind="captions" srclang="en" label="english_description">
 		<track src="captions/cloud.vtt" kind="descriptions" srclang="en" label="English">
 	</video>
-	<header id="main">
+	
 	<h1 class="main">Suhas Potluri</h1>
-	</header>
+	
 	<a href="#about"><i id="arrow" class="material-icons">arrow_downward</i></a>
 	</div>
 	<div class="space">
