@@ -233,6 +233,9 @@ h2{
 	padding-left:2vw;
 	padding-right:2vw;
 }
+.contact p{
+	padding:1px;
+}
 .projects h2{
 	color:white;
 }
@@ -277,9 +280,8 @@ label {
 	font-size:2.5vw;
 }
 input[type=text], select, textarea, input[type=email] {
-  width: 200%;
+  width: 100%;
   font-size:2vw;
-  transform:translateX(-25%);
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -288,6 +290,7 @@ input[type=text], select, textarea, input[type=email] {
   box-sizing: border-box;
 }
 input[type=submit] {
+	top:10px;
 	width:100%;
   background-color: #333;
   color: white;
