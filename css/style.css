@@ -203,6 +203,9 @@ img:hover{
 	 filter: brightness(150%);
 }
 .contact{
+	
+	border-radius: 50px;
+	border: 0px solid #333;
 	height:100vh;
 	width:100vw;
 	display:flex;
@@ -214,13 +217,18 @@ a#projects,#contact,#about{
 	display:block;
 	visibility:hidden;
 	position:relative;
-	top:-40px;
+	top:-25px;
 }
 h2{
 	text-align:center;
 
 	font-size:4vh;
 	color:black;
+}
+.contact h2{
+	
+	padding-left:2vw;
+	padding-right:2vw;
 }
 .projects h2{
 	color:white;
@@ -257,9 +265,8 @@ p{
   background-size: cover;
 }
 
-* {
-  box-sizing: border-box;
-}
+
+
 label {
 	display:block;
 	text-align:center;
@@ -271,6 +278,7 @@ input[type=text], select, textarea {
   border-radius: 4px;
   resize: vertical;
   text-align:center;
+  box-sizing: border-box;
 }
 input[type=submit] {
 	width:100%;
