@@ -217,7 +217,7 @@ a#projects,#contact,#about{
 	display:block;
 	visibility:hidden;
 	position:relative;
-	top:-25px;
+	top:-39px;
 }
 h2{
 	text-align:center;
@@ -226,7 +226,7 @@ h2{
 	color:black;
 }
 .contact h2{
-	
+
 	padding-left:2vw;
 	padding-right:2vw;
 }
@@ -271,8 +271,10 @@ label {
 	display:block;
 	text-align:center;
 }
-input[type=text], select, textarea {
-  width: 100%;
+input[type=text], select, textarea, input[type=email] {
+  width: 200%;
+  font-size:2vw;
+  transform:translateX(-25%);
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
