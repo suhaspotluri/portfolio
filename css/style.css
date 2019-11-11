@@ -333,6 +333,11 @@ footer p{
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
+
+.flip-card:focus .flip-card-inner{
+  transform: rotateY(180deg);
+  
+}
 .flip-card:hover .flip-card-inner{
   transform: rotateY(180deg);
   
