@@ -379,5 +379,9 @@ footer p{
 	color:white;
 	transition:default;
 }
+.flip-card-inner {
+  transition: transform 0s;
+  transform-style: preserve-3d;
+}
   
 }
