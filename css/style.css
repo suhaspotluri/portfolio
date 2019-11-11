@@ -197,7 +197,7 @@ video{
 img{
 	padding:0;
 	width:100%;
-	max-height:25vh;;
+	max-height:25vh;
 	object-fit:cover;
 	 border-radius: 10px;
   border: 2px solid #333;
@@ -390,7 +390,7 @@ h1.main {
     left: 0;
     padding: 6px;
     position: absolute;
-    top: -40px;
+    top: -40px;	
     -webkit-transition:default; 
     transition:default;
     z-index: 1;
