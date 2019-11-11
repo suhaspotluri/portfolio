@@ -5,6 +5,9 @@ body {
 	font-family: 'Josefin Sans', sans-serif;
  
 }
+*{
+	font-family: 'Josefin Sans', sans-serif;
+}
 .skip a{
   background: white;
   left: 0;
@@ -271,11 +274,11 @@ p{
 label {
 	display:block;
 	text-align:center;
-	font-size:2vw;
+	font-size:2.5vw;
 }
 input[type=text], select, textarea, input[type=email] {
   width: 200%;
-  font-size:1vw;
+  font-size:2vw;
   transform:translateX(-25%);
   padding: 12px;
   border: 1px solid #ccc;
