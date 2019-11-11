@@ -270,10 +270,11 @@ p{
 label {
 	display:block;
 	text-align:center;
+	font-size:2vw;
 }
 input[type=text], select, textarea, input[type=email] {
   width: 200%;
-  font-size:2vw;
+  font-size:1vw;
   transform:translateX(-25%);
   padding: 12px;
   border: 1px solid #ccc;
@@ -284,10 +285,11 @@ input[type=text], select, textarea, input[type=email] {
 }
 input[type=submit] {
 	width:100%;
-  background-color: #4CAF50;
+  background-color: #333;
   color: white;
   padding: 12px 20px;
   border: none;
+  font-size:2vw;
   border-radius: 4px;
   cursor: pointer;
   float: center;
